@@ -31,7 +31,7 @@ module "lambda_function" {
   source = "terraform-aws-modules/lambda/aws"
 
   function_name = "apiDotnet-Function"
-  description   = "API lambda function written in .NET"
+  description   = "API function."
   handler       = "apiDotnet.Function::apiDotnet.Function.LambdaEntryPoint::FunctionHandlerAsync"
   runtime       = "dotnet8"
   create_role   = false
