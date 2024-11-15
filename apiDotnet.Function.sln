@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apiDotnet.Lambda", "src\apiDotnet.Lambda.csproj", "{EA910863-E4E2-48DB-8455-8E0A8320A397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apiDotnet.Function", "src\apiDotnet.Function.csproj", "{EA910863-E4E2-48DB-8455-8E0A8320A397}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apiDotnet.Lambda.Tests", "test\apiDotnet.Lambda.Tests.csproj", "{DA45B2E5-B619-4C0A-9298-A716C67ECCD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apiDotnet.Function.Tests", "test\apiDotnet.Function.Tests.csproj", "{DA45B2E5-B619-4C0A-9298-A716C67ECCD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

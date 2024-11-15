@@ -26,6 +26,6 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\apiDotnet.Lambda.csproj" />
+    <ProjectReference Include="..\src\apiDotnet.Function.csproj" />
   </ItemGroup>
 </Project>

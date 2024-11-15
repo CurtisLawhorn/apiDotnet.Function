@@ -8,7 +8,7 @@
     "AspNetCoreFunction": {
       "Type": "AWS::Serverless::Function",
       "Properties": {
-        "Handler": "apiDotnet.Lambda::apiDotnet.Lambda.LambdaEntryPoint::FunctionHandlerAsync",
+        "Handler": "apiDotnet.Function::apiDotnet.Function.LambdaEntryPoint::FunctionHandlerAsync",
         "Runtime": "dotnet8",
         "CodeUri": "",
         "MemorySize": 512,

@@ -32,7 +32,7 @@ module "lambda_function" {
 
   function_name = "apiDotnet-Function"
   description   = "API lambda function written in .NET"
-  handler       = "apiDotnet.Function::apiDotnet.Function.Function::FunctionHandler"
+  handler       = "apiDotnet.Function::apiDotnet.Function.LambdaEntryPoint::FunctionHandlerAsync"
   runtime       = "dotnet8"
   create_role   = false
   #lambda_role  = aws_iam_role.lambda_role.arn

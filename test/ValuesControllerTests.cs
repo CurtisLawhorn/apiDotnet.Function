@@ -6,7 +6,7 @@ using Amazon.Lambda.APIGatewayEvents;
 
 
 
-namespace apiDotnet.Lambda.Tests;
+namespace apiDotnet.Function.Tests;
 
 public class ValuesControllerTests
 {

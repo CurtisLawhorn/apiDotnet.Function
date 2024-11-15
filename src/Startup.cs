@@ -1,4 +1,4 @@
-﻿namespace apiDotnet.Lambda;
+﻿namespace apiDotnet.Function;
 
 public class Startup
 {
