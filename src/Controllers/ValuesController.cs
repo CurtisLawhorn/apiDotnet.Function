@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace apiDotnet.Lambda.Controllers;
+namespace apiDotnet.Function.Controllers;
 
 [Route("api/[controller]")]
 public class ValuesController : ControllerBase
